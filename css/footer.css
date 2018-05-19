@@ -1,0 +1,38 @@
+.block-networks {
+    height: 90px;
+}
+.block-networks-info {
+    width: 730px;
+    height: inherit;
+}
+.block-networks-icons {
+    float: right;
+    margin-top: 20px;
+}
+.block-networks-text {
+    padding-top: 35px;
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+.block-networks-icons-twitter {
+    background: url("../images/sprites/icons.png") no-repeat;
+    background-position: -8px -10px;
+    background-color: #222222;
+}
+.block-networks-icons-facebook {
+     background: url("../images/sprites/icons.png") no-repeat;
+     background-position: -56px -10px;
+     background-color: #222222;
+}
+.block-networks-icons-pinterest {
+      background: url("../images/sprites/icons.png") no-repeat;
+      background-position: -107px -8px;
+      background-color: #222222;
+}
+.block-networks-icons-google {
+    background: url("../images/sprites/icons.png") no-repeat;
+    background-position: -155px -8px;
+    background-color: #222222;
+}

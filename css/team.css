@@ -1,0 +1,101 @@
+.block-team {
+    height: 820px;
+    background-color: #f7f7f7;
+}
+.block-team-name {
+    height: 275px;
+}
+.block-team-foto {
+    width: 220px;
+    height: 220px;
+    border-radius: 220px;
+    background-color: #111111;
+}
+.block-team-members {
+    width: 940px;
+    height: 380px;
+    margin: auto;
+}
+.block-team-text {
+    width: 650px;
+    height: 165px;
+    text-align: center;
+}
+.block-team-info__name {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.block-team-info__profession {
+    color: #8d8d8d;
+    margin-top: 10px;
+}
+.block-team-text__describe {
+    color: #8d8d8d;
+    font-size: 19px;
+}
+.info-icons {
+    width: 35px;
+    height: 35px;
+    border: 3px solid #222222;
+    border-radius: 35px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.block-icons-twitter {
+    background: url("../images/sprites/icons.png") no-repeat;
+    background-position: -8px -58px;
+}
+.block-icons-facebook {
+    background: url("../images/sprites/icons.png") no-repeat;
+    background-position: -57px -58px;
+}
+.block-icons-pinterest {
+    background: url("../images/sprites/icons.png") no-repeat;
+    background-position: -107px -58px;
+}
+.block-icons-google {
+    background: url("../images/sprites/icons.png") no-repeat;
+    background-position: -161px -58px;
+}
+.block-icons-twitter:hover {
+    background-position: -8px -10px;
+}
+.info-icons-twitter:hover {
+    background-color: #00aced;
+    border-color: #00aced;
+}
+.block-icons-facebook:hover {
+    background-position: -56px -10px;
+}
+.info-icons-facebook:hover {
+    background-color: #3b5998;
+    border-color: #3b5998;
+}
+.block-icons-pinterest:hover {
+    background-position: -107px -8px;
+}
+.info-icons-pinterest:hover {
+    background-color: #cb2028;
+    border-color: #cb2028;
+}
+.block-icons-google:hover {
+    background-position: -155px -8px;
+}
+.info-icons-google:hover {
+    background-color: #d95232;
+    border-color: #d95232;
+}
+.foto-marketer:hover {
+    background: url("../images/team/marketer.jpg");
+    background-size: cover;
+}
+.foto-coder:hover {
+    background: url("../images/team/coder.jpg");
+    background-size: cover;
+}
+.foto-designer:hover {
+    background: url("../images/team/designer.jpg");
+    background-size: cover;
+}

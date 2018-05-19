@@ -1,0 +1,97 @@
+.block-about {
+    height: 1600px;
+}
+.block-about-name {
+    height: 265px;
+}
+.block-about-history {
+    height: 1400px;
+}
+.block-about-event {
+    height: 170px;
+}
+.event-image {
+    float: right;
+    width: 160px;
+    height: 160px;
+    border: 5px solid #f1f1f1;
+    border-radius: 160px;
+}
+.event-image-rotate {
+    animation: rotateImage 2s linear infinite;
+}
+.event-image-2010 {
+    background: url("../images/about/beginnings.png");
+    background-position: -30px -10px;
+    margin-left: 30px;
+}
+@keyframes rotateImage {
+    0% {
+        transform: translate(0px);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.event-image-2011 {
+    background: url("../images/about/startup.png");
+    background-position: -30px -10px;
+    margin-right: 30px;
+}
+.event-image-2012 {
+    background: url("../images/about/dark days.png");
+    background-position: 305px -125px;
+    margin-left: 30px;
+}
+.event-image-2014 {
+    background: url("../images/about/triumph.png");
+    background-position: -25px -10px;
+    margin-right: 30px;
+}
+.event-image-end {
+    background-color: #fed136;
+    text-align: center;
+}
+.event-image-end-text {
+    word-wrap: break-word;
+    text-align: center;
+    padding-top: 20px;
+}
+.block-about-event-left {
+    width: 690px;
+}
+.block-about-event-right {
+    width: 1030px;
+}
+.event-describe {
+    width: 310px;
+    display: inline-block;
+    float: right;
+}
+.event-left-describe {
+    text-align: right;
+}
+.event-image-end-text__word {
+    color: #ffffff;
+    margin-top: 5px;
+}
+.event-describe__text {
+    font-style: normal;
+}
+.block-line {
+    width: 605px;
+    height: 90px;
+    border-right: 3px solid #f1f1f1;
+}
+.event-describe__title {
+    margin-top: 0px;
+}
